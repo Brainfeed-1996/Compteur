@@ -1,0 +1,33 @@
+.count {
+    text-align: center;
+    font-size: 100px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.plus{
+    background-color: lime;
+}
+
+.minus{
+    background-color: red;
+}
+
+.plus:hover{
+    background-color: rgba(0, 255, 0, 0.76);
+}
+
+.minus:hover{
+    background-color: rgba(255, 0, 0, 0.664);
+}
